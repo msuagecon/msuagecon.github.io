@@ -2,6 +2,7 @@
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="../resources/java/wasde.js"></script>
         <link rel="stylesheet" type="text/css" href="../resources/style.css">
         <title>WASDE </title>
     </head>
@@ -24,7 +25,7 @@
         <main>
             <h2>World Agricultural Supply and Demand Estimates (WASDE)</h2>
             <p>The latest WASDE report was released on December 10th, 2020. Use the dropdown menu below to explore the estimates for various crops.</p>
-            <select class="wasdeinput" name="wasdecrops ">
+            <select class="wasdeinput" id="wasdecrops" onchange="toggleTable()">
                 <option value="corn">Corn</option>
                 <option value="soybeans">Soybeans</option>
                 <option value="seedcotton">Seed Cotton</option>
@@ -32,6 +33,31 @@
                 <option value="shortrice">Med/Short Grain Rice</option>
                 <option value="wheat">Wheat</option></option>
             </select>
+            <br>
+            <br>
+            <div id="wheat">
+            <table>
+                <tr>
+                <th>Dog</th>
+                <th>Cat</th>
+                </tr>
+                <tr>
+                <td>Larry</td>
+                <td>Susie</td>
+                </tr>
+            </table>
+            </div>
+            <table id="corn">
+                <tr>
+                <th>Cow</th>
+                <th>Pig</th>
+                </tr>
+                <tr>
+                <td>Larry</td>
+                <td>Susie</td>
+                </tr>
+            </table>
+
  </main>
         <aside>
             <h3 align="center">Useful Links</h3>
