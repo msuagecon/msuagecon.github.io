@@ -67,6 +67,7 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 footer {
@@ -107,6 +108,15 @@ aside {
 }
 
 #budgetlist a:hover {
+    color: gray;
+}
+
+#wasdeitems a {
+    font-size: 1.5em;
+    color: maroon;
+}
+
+#wasdeitems a:hover {
     color: gray;
 }
 
