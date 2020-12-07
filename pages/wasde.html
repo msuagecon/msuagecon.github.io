@@ -10,7 +10,8 @@
     <body>
         <header>
             <div class="logo">
-                <a href="../index.html"><img src="../resources/images/logo.jpg" alt="Blog Logo"></a>
+                <img src="../resources/images/extensionlogo2.jpg" alt="ExtensionLogo">
+                <img src="../resources/images/ageconlogo2.jpg" alt="AgEconLogo">
             </div>
             <h1 align="center">Agricultural Economic Updates</h1>
             <nav>
@@ -24,41 +25,494 @@
         </header>
         <main>
             <h2>World Agricultural Supply and Demand Estimates (WASDE)</h2>
-            <p>The latest WASDE report was released on December 10th, 2020. Use the dropdown menu below to explore the estimates for various crops.</p>
-            <select class="wasdeinput" id="wasdecrops" onchange="toggleTable()">
-                <option value="corn">Corn</option>
-                <option value="soybeans">Soybeans</option>
-                <option value="seedcotton">Seed Cotton</option>
-                <option value="longrice">Long Grain Rice</option>
-                <option value="shortrice">Med/Short Grain Rice</option>
-                <option value="wheat">Wheat</option></option>
-            </select>
-            <br>
-            <br>
-            <div id="wheat">
-            <table>
+            <p>The latest WASDE report was released on December 10th, 2020. Information contained in the report can be found below. </p>
+            <nav>
+                <a href="#corn">Corn</a>
+                <a href="#soybeans">Soybeans</a>
+                <a href="#cotton">Cotton</a>
+                <a href="#wheat">Wheat</a>
+            </nav>
+            <!--Corn Section-->
+            <section id="corn"></section>
+            <h2>Corn</h2>
+            <p>The latest WASDE report....</p>
+            <!--corn table-->
+            <table class="wasdetable">
+                <caption>U.S. Corn Supply and Use</caption>
                 <tr>
-                <th>Dog</th>
-                <th>Cat</th>
+                    <th></th>
+                    <th>2018/19</th>
+                    <th>2019/20 Est.</th>
+                    <th>2020/21 Proj. Oct</th>
+                    <th>2020/21 Proj. Nov</th>
+                </tr>
+                <tr><th colspan="5">Million Acres</th></tr>
+                <tr>
+                    <td>Area Planted</td>
+                    <td>88.9</td>
+                    <td>89.7</td>
+                    <td>91.0</td>
+                    <td>91.0</td>
                 </tr>
                 <tr>
-                <td>Larry</td>
-                <td>Susie</td>
+                    <td>Area Harvested</td>
+                    <td>81.3</td>
+                    <td>81.3</td>
+                    <td>91.0</td>
+                    <td>91.0</td>
+                </tr>
+                <tr><th colspan="5">Bushels</th></tr>
+                <tr>
+                    <td>Yield per Harvested Acre</td>
+                    <td>176.4</td>
+                    <td>167.5</td>
+                    <td>178.4</td>
+                    <td>175.8</td>
+                </tr>
+                <tr><th colspan="5">Million Bushels</th></tr>
+                <tr>
+                    <td>Beginning Stocks</td>
+                    <td>2,140</td>
+                    <td>2,221</td>
+                    <td>1,995</td>
+                    <td>1,995</td>
+                </tr>
+                <tr>
+                    <td>Production</td>
+                    <td>14,340</td>
+                    <td>13,620</td>
+                    <td>14,722</td>
+                    <td>14,507</td>
+                </tr>
+                <tr>
+                    <td>Imports</td>
+                    <td>28</td>
+                    <td>42</td>
+                    <td>25</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Supply, Total</td>
+                    <td>16,509</td>
+                    <td>15,883</td>
+                    <td>16,742</td>
+                    <td>16,527</td>
+                </tr>
+                <tr>
+                    <td>Feed and Residual</td>
+                    <td>5,429</td>
+                    <td>5,827</td>
+                    <td>5,775</td>
+                    <td>5,700</td>
+                </tr>
+                <tr>
+                    <td>Food, Seed and Industrial</td>
+                    <td>6,793</td>
+                    <td>6,282</td>
+                    <td>6,475</td>
+                    <td>6,475</td>
+                </tr>
+                <tr>
+                    <td>Ethanol and by-products</td>
+                    <td>12,222</td>
+                    <td>12,109</td>
+                    <td>12,250</td>
+                    <td>12,175</td>
+                </tr>
+                <tr>
+                    <td>Domestic Consumption, Total</td>
+                    <td>12,222</td>
+                    <td>12,109</td>
+                    <td>12,250</td>
+                    <td>12,175</td>
+                </tr>
+                <tr>
+                    <td>Exports</td>
+                    <td>14,288</td>
+                    <td>13,887</td>
+                    <td>14,575</td>
+                    <td>14,825</td>
+                </tr>
+                <tr>
+                    <td>Use, Total</td>
+                    <td>14,288</td>
+                    <td>13,887</td>
+                    <td>14,575</td>
+                    <td>14,825</td>
+                </tr>
+                <tr>
+                    <td>Ending Stocks</td>
+                    <td>2,221</td>
+                    <td>1,995</td>
+                    <td>2,167</td>
+                    <td>1,702</td>
+                </tr>
+                <tr>
+                    <td>Avg. Farm Price ($/bu)</td>
+                    <td>$3.61</td>
+                    <td>$3.56</td>
+                    <td>$3.60</td>
+                    <td>$4.00</td>
                 </tr>
             </table>
-            </div>
-            <table id="corn">
+            <br>
+        </section>
+        <!--Soybeans Section-->
+        <section id="soybeans"></section>
+        <h2>Soybeans</h2>
+        <p>The latest WASDE report....</p>
+        <!--soybean table-->
+        <table class="wasdetable">
+            <caption>U.S. Soybeans Supply and Use</caption>
+            <tr>
+                <th></th>
+                <th>2018/19</th>
+                <th>2019/20 Est.</th>
+                <th>2020/21 Proj. Oct</th>
+                <th>2020/21 Proj. Nov</th>
+            </tr>
+            <tr><th colspan="5">Million Acres</th></tr>
+            <tr>
+                <td>Area Planted</td>
+                <td>89.2</td>
+                <td>76.1</td>
+                <td>83.1</td>
+                <td>83.1</td>
+            </tr>
+            <tr>
+                <td>Area Harvested</td>
+                <td>87.6</td>
+                <td>74.9</td>
+                <td>82.3</td>
+                <td>82.3</td>
+            </tr>
+            <tr><th colspan="5">Bushels</th></tr>
+            <tr>
+                <td>Yield per Harvested Acre</td>
+                <td>50.6</td>
+                <td>47.4</td>
+                <td>51.9</td>
+                <td>50.7</td>
+            </tr>
+            <tr><th colspan="5">Million Bushels</th></tr>
+            <tr>
+                <td>Beginning Stocks</td>
+                <td>438</td>
+                <td>909</td>
+                <td>523</td>
+                <td>523</td>
+            </tr>
+            <tr>
+                <td>Production</td>
+                <td>4,428</td>
+                <td>3,552</td>
+                <td>4,268</td>
+                <td>4,170</td>
+            </tr>
+            <tr>
+                <td>Imports</td>
+                <td>14</td>
+                <td>15</td>
+                <td>15</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Supply, Total</td>
+                <td>4,880</td>
+                <td>4,476</td>
+                <td>4,806</td>
+                <td>4,709</td>
+            </tr>
+            <tr>
+                <td>Crushings</td>
+                <td>2,092</td>
+                <td>2,165</td>
+                <td>2,180</td>
+                <td>2,180</td>
+            </tr>
+            <tr>
+                <td>Exports</td>
+                <td>1,752</td>
+                <td>1,676</td>
+                <td>2,200</td>
+                <td>2,200</td>
+            </tr>
+            <tr>
+                <td>Seed</td>
+                <td>88</td>
+                <td>96</td>
+                <td>100</td>
+                <td>103</td>
+            </tr>
+            <tr>
+                <td>Residual</td>
+                <td>39</td>
+                <td>16</td>
+                <td>36</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Use, Total</td>
+                <td>3,971</td>
+                <td>3,953</td>
+                <td>4,516</td>
+                <td>4,519</td>
+            </tr>
+            <tr>
+                <td>Ending Stocks</td>
+                <td>909</td>
+                <td>523</td>
+                <td>290</td>
+                <td>190</td>
+            </tr>
+            <tr>
+                <td>Avg. Farm Price ($/bu)</td>
+                <td>$8.48</td>
+                <td>$8.57</td>
+                <td>$9.80</td>
+                <td>$10.40</td>
+            </tr>
+        </table>
+        <br>
+    </section>
+     <!--Cotton Section-->
+     <section id="cotton"></section>
+     <h2>Cotton</h2>
+     <p>The latest WASDE report....</p>
+     <!--cotton table-->
+     <table class="wasdetable">
+         <caption>U.S. Cotton Supply and Use</caption>
+         <tr>
+             <th></th>
+             <th>2018/19</th>
+             <th>2019/20 Est.</th>
+             <th>2020/21 Proj. Oct</th>
+             <th>2020/21 Proj. Nov</th>
+         </tr>
+         <tr><th colspan="5">Million Acres</th></tr>
+         <tr>
+             <td>Area Planted</td>
+             <td>14.10</td>
+             <td>13.74</td>
+             <td>12.12</td>
+             <td>12.12</td>
+         </tr>
+         <tr>
+             <td>Area Harvested</td>
+             <td>9.99</td>
+             <td>11.61</td>
+             <td>9.01</td>
+             <td>9.01</td>
+         </tr>
+         <tr><th colspan="5">Pounds</th></tr>
+         <tr>
+             <td>Yield per Harvested Acre</td>
+             <td>882</td>
+             <td>823</td>
+             <td>909</td>
+             <td>911</td>
+         </tr>
+         <tr><th colspan="5">Million 480 Pound Bales</th></tr>
+         <tr>
+             <td>Beginning Stocks</td>
+             <td>4.20</td>
+             <td>4.85</td>
+             <td>7.25</td>
+             <td>7.25</td>
+         </tr>
+         <tr>
+             <td>Production</td>
+             <td>18.37</td>
+             <td>19.91</td>
+             <td>17.05</td>
+             <td>17.09</td>
+         </tr>
+         <tr>
+             <td>Imports</td>
+             <td>0.00</td>
+             <td>0.00</td>
+             <td>0.00</td>
+             <td>0.00</td>
+         </tr>
+         <tr>
+             <td>Supply, Total</td>
+             <td>22.57</td>
+             <td>24.77</td>
+             <td>24.30</td>
+             <td>24.35</td>
+         </tr>
+         <tr>
+             <td>Domestic Use</td>
+             <td>2.98</td>
+             <td>2.15</td>
+             <td>2.50</td>
+             <td>2.50</td>
+         </tr>
+         <tr>
+             <td>Exports</td>
+             <td>14.84</td>
+             <td>15.53</td>
+             <td>14.60</td>
+             <td>14.60</td>
+         </tr>
+         <tr>
+             <td>Total Use</td>
+             <td>17.81</td>
+             <td>17.68</td>
+             <td>17.10</td>
+             <td>17.10</td>
+         </tr>
+         <tr>
+             <td>Unaccounted</td>
+             <td>-0.09</td>
+             <td>-0.16</td>
+             <td>0.00</td>
+             <td>0.05</td>
+         </tr>
+         <tr>
+             <td>Ending Stocks</td>
+             <td>4.85</td>
+             <td>7.25</td>
+             <td>7.20</td>
+             <td>7.20</td>
+         </tr>
+         <tr>
+             <td>Avg. Farm Price (¢/bu)</td>
+             <td>70.3</td>
+             <td>59.6</td>
+             <td>61.0</td>
+             <td>64.0</td>
+         </tr>
+     </table>
+     <br>
+ </section>
+        <!--Wheat Section-->
+        <section id="wheat"></section>
+            <h2>Wheat</h2>
+            <p>The latest WASDE report....</p>
+            <!--Wheat table-->
+            <table class="wasdetable">
+                <caption>U.S. Wheat Supply and Use</caption>
                 <tr>
-                <th>Cow</th>
-                <th>Pig</th>
+                    <th></th>
+                    <th>2018/19</th>
+                    <th>2019/20 Est.</th>
+                    <th>2020/21 Proj. Oct</th>
+                    <th>2020/21 Proj. Nov</th>
+                </tr>
+                <tr><th colspan="5">Million Acres</th></tr>
+                <tr>
+                    <td>Area Planted</td>
+                    <td>47.8</td>
+                    <td>45.5</td>
+                    <td>44.3</td>
+                    <td>44.3</td>
                 </tr>
                 <tr>
-                <td>Larry</td>
-                <td>Susie</td>
+                    <td>Area Harvested</td>
+                    <td>39.6</td>
+                    <td>37.4</td>
+                    <td>36.7</td>
+                    <td>36.7</td>
+                </tr>
+                <tr><th colspan="5">Bushels</th></tr>
+                <tr>
+                    <td>Yield per Harvested Acre</td>
+                    <td>47.6</td>
+                    <td>51.7</td>
+                    <td>49.7</td>
+                    <td>49.7</td>
+                </tr>
+                <tr><th colspan="5">Million Bushels</th></tr>
+                <tr>
+                    <td>Beginning Stocks</td>
+                    <td>1,099</td>
+                    <td>1,080</td>
+                    <td>1,028</td>
+                    <td>1,028</td>
+                </tr>
+                <tr>
+                    <td>Production</td>
+                    <td>1,885</td>
+                    <td>1,932</td>
+                    <td>1,826</td>
+                    <td>1,826</td>
+                </tr>
+                <tr>
+                    <td>Imports</td>
+                    <td>135</td>
+                    <td>105</td>
+                    <td>125</td>
+                    <td>125</td>
+                </tr>
+                <tr>
+                    <td>Supply, Total</td>
+                    <td>3,119</td>
+                    <td>3,117</td>
+                    <td>2,979</td>
+                    <td>2,979</td>
+                </tr>
+                <tr>
+                    <td>Food</td>
+                    <td>954</td>
+                    <td>962</td>
+                    <td>960</td>
+                    <td>965</td>
+                </tr>
+                <tr>
+                    <td>Seed</td>
+                    <td>59</td>
+                    <td>60</td>
+                    <td>61</td>
+                    <td>62</td>
+                </tr>
+                <tr>
+                    <td>Feed and Residual</td>
+                    <td>88</td>
+                    <td>101</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Domestic Consumption, Total</td>
+                    <td>1,102</td>
+                    <td>1,123</td>
+                    <td>1,121</td>
+                    <td>1,127</td>
+                </tr>
+                <tr>
+                    <td>Exports</td>
+                    <td>937</td>
+                    <td>965</td>
+                    <td>975</td>
+                    <td>975</td>
+                </tr>
+                <tr>
+                    <td>Use, Total</td>
+                    <td>2,039</td>
+                    <td>2,089</td>
+                    <td>2,096</td>
+                    <td>2,102</td>
+                </tr>
+                <tr>
+                    <td>Ending Stocks</td>
+                    <td>1,080</td>
+                    <td>1,028</td>
+                    <td>883</td>
+                    <td>877</td>
+                </tr>
+                <tr>
+                    <td>Avg. Farm Price ($/bu)</td>
+                    <td>$5.16</td>
+                    <td>$4.58</td>
+                    <td>$4.70</td>
+                    <td>$4.70</td>
                 </tr>
             </table>
-
- </main>
+        </section>
+        <br>
+        <br>
+        </main>
         <aside>
             <h3 align="center">Useful Links</h3>
         <ul>
