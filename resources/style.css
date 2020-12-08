@@ -33,7 +33,7 @@ a {
     font-size: 1.1em;
     line-height: 1.3em;
     text-decoration: none;
-    color: blue;
+    color: maroon;
     padding: 5px 15px 5px 15px;
 }
 
@@ -118,6 +118,10 @@ aside {
 
 #wasdeitems a:hover {
     color: gray;
+}
+
+.infolink {
+    color: maroon;
 }
 
 /* Table Formatting */

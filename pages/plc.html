@@ -27,7 +27,9 @@
         <p> The Price Loss Coverage Program (PLC) payment rate is determined by a reference price and marketing average price for each crop. The reference price
             is set by the Farm Bill and the marketing year average price is determeined by USDA each year. The marketing year average price represents the average price
             producers recieved for a commodity within a marketng year. Below are final payment rates for the 2019/2020 marketing year and the expected payment rates for 2020/2021
-            marketing year.
+            marketing year. The Expected PLC Payment Rate is the higher of (Reference Price minus the Estimated 2019/20 MYA Price) or (zero). To find the estimated PLC payment
+            per base acre, multiply the Expected PLC Payment Rate by the individual farm’s PLC Yield, then multiply by the 85% payment reduction factor. Of the
+            crops listed, only Soybeans are expected to not have a PLC payment for the 2019 year.
         </p>
         <h2 align="center">2020/2021 Marketing Year</h2>
         <p>The expected PLC payments for the 2020 year listed in Table 2. The Estimated 2020/21 MYA Price is based on prices from the
@@ -101,9 +103,7 @@
         <p>The expected PLC payments for the 2019 year are listed in Table 1. These payments are based on the estimated Marketing Year Average Price (MYA Price),
             which is the national average price received by producers over the marketing year. As the marketing year is either over or close to being over,
             the estimates will not change much between now and the date for the final MYA Price. The MYA Prices for all crops in shown are the finalized prices.
-            The Expected PLC Payment Rate is the higher of (Reference Price minus the Estimated 2019/20 MYA Price) or (zero). To find the estimated PLC payment
-            per base acre, multiply the Expected PLC Payment Rate by the individual farm’s PLC Yield, then multiply by the 85% payment reduction factor. Of the
-            crops listed, only Soybeans are expected to not have a PLC payment for the 2019 year.</p>
+            </p>
         <table>
             <tr>
                 <th colspan="5">Table 1. 2019 Finalized PLC Payment Rates</th>
@@ -170,14 +170,16 @@
 
         <section id="seedcotton">
             <h2 align="center">Seed Cotton Program</h2>
-            <p>Beginning in 2018, seed cotton became an eligible commodity for PLC and ARC-CO payments. Seed cotton is unginned upland cotton- a combination of both cotton lint and cotton seed. The reference price for seed cotton is 36.7 cents per lb and is fixed by legislation. The marketing year average (MYA) price for seed cotton is an average price of cotton lint and cotton seed weighted by production. You an use the tool below to see how we calculated our seed cotton MYA price estimate or adjust values to see how the price would change. </p>
+            <p>Beginning in 2018, seed cotton became an eligible commodity for PLC and ARC-CO payments. Seed cotton is unginned upland cotton- a combination of both cotton lint and cotton seed. The reference price for seed cotton is 36.7 cents per lb and is fixed by legislation. The marketing year average (MYA) price for seed cotton is an average price of cotton lint and cotton seed weighted by production. You an use the tool below to see how we calculated our seed cotton MYA price estimate or adjust values to see how the price would change. The default values are the values used in the current month’s cottonseed price estimate. Cotton lint prices and production estimates come from the USDA WASDE report and cottonseed prices and production estimates come from the USDA ERS Oil Crops Outlook report. Click the links below to be taken to these reports for further information.  </p>
+            <a class="infolink" href="https://www.usda.gov/oce/commodity/wasde" target="_blankS">USDA WASDE</a>
+            <a class="infolink" href="https://www.ers.usda.gov/publications/pub-details/?pubid=99820">USDA ERS Oil Crops Outlook</a>
             <h3>Step 1. Enter estimates for the MYA price for cotton lint and cotton seed.</h3>
             <label class="seedcottonlabel" for="lintprice">Upland Lint MYA Price ($/lb):</label>
-            <input class="inputs" id="lintprice" type="text" value="0.630" onchange="seedCotton()">
+            <input class="inputs" id="lintprice" type="text" value="0.690" onchange="seedCotton()">
             <br>
             <br>
             <label class="seedcottonlabel" for="cottonseedprice">Cotton Seed Price ($/lb):</label>
-            <input class="inputs" id="cottonseedprice" type="text" value="0.08" onchange="seedCotton()">            <br>
+            <input class="inputs" id="cottonseedprice" type="text" value="0.095" onchange="seedCotton()">            <br>
             <br>
             <h3>Step 2. Enter estimates for total cotton lint production and cottonseed production.</h3>
             <label class="seedcottonlabel" for="lintprod">Upland Lint Production (million 480 lb bales):</label>
@@ -185,7 +187,7 @@
             <br>
             <br>
             <label class="seedcottonlabel" for="seedprod">Cottonseed Production (million tons):</label>
-            <input class="inputs" id="seedprod" type="text" value="6.245" onchange="seedCotton()">
+            <input class="inputs" id="seedprod" type="text" value="5.230" onchange="seedCotton()">
             <br>
             <br>
             <h3>Step 3. The MYA price for seed cotton is calculated by taking the total lint value plus the total cottonseed value and dividing by the total production of both in pounds.</h3>
