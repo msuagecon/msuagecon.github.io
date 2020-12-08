@@ -220,6 +220,13 @@ button {
     font-weight: bold;
 }
 
+.seedcottonlabel {
+    font-size: 24px;
+}
+
+#seedcottonmya {
+    font-weight: bold;
+}
 
 /*Mobile CSS */
 @media screen and (max-width: 600px) {

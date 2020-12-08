@@ -77,6 +77,18 @@ unitDeterminer = function() {
     document.getElementById('mya').value = price;
 }
 
+seedCotton = function() {
+    let lintPrice = Number(document.getElementById("lintprice").value);
+    let seedPrice = Number(document.getElementById("cottonseedprice").value);
+    let lintProd = Number(document.getElementById("lintprod").value);
+    let seedProd = Number(document.getElementById("seedprod").value);
+    let seedCottonPrice;
+
+    seedCottonPrice = Math.round(((lintPrice*(lintProd*1000000*480)) + (seedPrice*(seedProd*1000000*2000)))/((lintProd*1000000*480)+(seedProd*1000000*2000))*10000)/10000;
+    seedCottonPrice = "$"+seedCottonPrice.toFixed(4)
+    document.getElementById("seedcottonmya").value = seedCottonPrice;
+}
+
 function setTwoNumberDecimal(event) {
     this.value = parseFloat(this.value).toFixed(2);
 }
