@@ -22,23 +22,23 @@ revenueCalculation = function() {
         result1 = Math.round(Math.max(0, 8.40 -  Math.max(mya, 6.20))*100)/100;
         result2 = Math.round((Math.max(0, 8.40 -  Math.max(mya, 6.20))*0.85*fsayield)*100)/100;
     } else if(crop === 'seedcotton') {
-        result1 = Math.round(Math.max(0, 0.367 -  Math.max(mya, 0.2500))*100)/100;
+        result1 = Math.round(Math.max(0, 0.367 -  Math.max(mya, 0.2500))*1000)/1000;
         result2 = Math.round((Math.max(0, 0.367 -  Math.max(mya, 0.2500))*0.85*fsayield)*100)/100;
     } else if(crop === 'longrice') {
-        result1 = Math.round(Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*100)/100;
+        result1 = Math.round(Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*1000)/1000;
         result2 = Math.round((Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*0.85*fsayield)*100)/100;
     } else if(crop === 'shortrice') {
-        result1 = Math.round(Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*100)/100;
+        result1 = Math.round(Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*1000)/1000;
         result2 = Math.round((Math.max(0, 0.1400 -  Math.max(mya, 0.0700))*0.85*fsayield)*100)/100;
     } else if(crop === 'peanuts') {
-        result1 = Math.round(Math.max(0, 0.2675 -  Math.max(mya, 0.1775))*100)/100;
+        result1 = Math.round(Math.max(0, 0.2675 -  Math.max(mya, 0.1775))*1000)/1000;
         result2 = Math.round((Math.max(0, 0.2675 -  Math.max(mya, 0.1775))*0.85*fsayield)*100)/100;
     } else if(crop === 'wheat') {
         result1 = Math.round(Math.max(0, 5.50 -  Math.max(mya, 3.38))*100)/100;
         result2 = Math.round((Math.max(0, 5.50 -  Math.max(mya, 3.38))*0.85*fsayield)*100)/100;
     }
 
-    const currencyResult1 = "$"+result1.toFixed(2);
+    const currencyResult1 = "$"+result1.toFixed(3);
     const currencyResult2 = "$"+result2.toFixed(2);
 
     //Output back to document
@@ -54,16 +54,16 @@ unitDeterminer = function() {
         price = '4.00';
         unitResult = 'bushels';
     } else if(crop === 'soybeans') {
-        price = '10.40';
+        price = '10.55';
         unitResult = 'bushels';
     } else if(crop === 'seedcotton') {
-        price = '0.3378';
+        price = '0.3295';
         unitResult = 'pounds';
     } else if(crop === 'longrice') {
-        price = '0.1170';
+        price = '0.1180';
         unitResult = 'pounds';
     } else if(crop === 'shortrice') {
-        price = '0.1180';
+        price = '0.1200';
         unitResult = 'pounds';
     } else if(crop === 'peanuts') {
         price = '0.2025';
