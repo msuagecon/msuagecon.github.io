@@ -57,13 +57,13 @@ unitDeterminer = function() {
         price = '11.15';
         unitResult = 'bushels';
     } else if(crop === 'seedcotton') {
-        price = '0.3464';
+        price = '0.3625';
         unitResult = 'pounds';
     } else if(crop === 'longrice') {
-        price = '0.1220';
+        price = '0.1240';
         unitResult = 'pounds';
     } else if(crop === 'shortrice') {
-        price = '0.1250';
+        price = '0.1280';
         unitResult = 'pounds';
     } else if(crop === 'peanuts') {
         price = '0.2150';

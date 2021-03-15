@@ -37,13 +37,13 @@
         <h2 align="center">2020/2021 Marketing Year</h2>
         <p>The expected PLC payments for the 2020 year are listed in Table 1. These payments are based on the estimated Marketing Year Average Price (MYA Price), which is the national average price received by producers over the marketing year. As the marketing year is either over or close to being over, the estimates will not change much between now and the date for the final MYA Price. The MYA Prices for all crops in shown are the finalized prices. The Expected PLC Payment Rate is the higher of (Reference Price minus the Estimated 2020/21 MYA Price) or (zero). To find the estimated PLC payment per base acre, multiply the Expected PLC Payment Rate by the individual farm’s PLC Yield, then multiply by the 85% payment reduction factor. These numbers are subject to change significantly between now and when they are finalized. Corn and Soybeans are the only crops not expected to see a PLC payment for 2020.</p>
         <table>
-            <tr><th colspan="5">Table 1. Projected PLC Payment Rates for 2020 - February 19th, 2021</th></tr>
+            <tr><th colspan="5">Table 1. Projected PLC Payment Rates for 2020 - March 15, 2021</th></tr>
             <tr><th>Commodity</th><th>Unit</th><th>Reference Price</th><th>Estimated 2020/21 MYA Price</th><th>Expected 2020 Payment Rate</th></tr>
             <tr><td>Corn</td><td>bushels</td><td>$3.70</td><td>$4.30</td><td>$0.00</td></tr>
             <tr><td>Soybeans</td><td>bushels</td><td>$8.40</td><td>$11.15</td><td>$0.00</td></tr>
-            <tr><td>Seed Cotton</td><td>pounds</td><td>$0.367</td><td>$0.3464</td><td>$0.0206</td></tr>
-            <tr><td>Long Grain Rice</td><td>pounds</td><td>$0.1400</td><td>$0.122</td><td>$0.018</td></tr>
-            <tr><td>Medium/Short Grain Rice</td><td>pounds</td><td>$0.1401</td><td>$0.125</td><td>$0.015</td></tr>
+            <tr><td>Seed Cotton</td><td>pounds</td><td>$0.367</td><td>$0.3625</td><td>$0.0045</td></tr>
+            <tr><td>Long Grain Rice</td><td>pounds</td><td>$0.1400</td><td>$0.124</td><td>$0.016</td></tr>
+            <tr><td>Medium/Short Grain Rice</td><td>pounds</td><td>$0.1401</td><td>$0.128</td><td>$0.012</td></tr>
             <tr><td>Peanuts</td><td>pounds</td><td>$0.2676</td><td>$0.2150</td><td>$0.0525</td></tr>
             <tr><td>Wheat</td><td>bushels</td><td>$5.50</td><td>$5.00</td><td>$0.50</td></tr>
         </table>
@@ -74,7 +74,7 @@
             <a class="infolink" href="https://www.ers.usda.gov/publications/pub-details/?pubid=99820" target="_blank">USDA ERS Oil Crops Outlook</a>
             <h3>Step 1. Enter estimates for the MYA price for cotton lint and cotton seed.</h3>
             <label class="seedcottonlabel" for="lintprice">Upland Lint MYA Price ($/lb):</label>
-            <input class="inputs" id="lintprice" type="text" value="0.680" onchange="seedCotton()">
+            <input class="inputs" id="lintprice" type="text" value="0.690" onchange="seedCotton()">
             <br>
             <br>
             <label class="seedcottonlabel" for="cottonseedprice">Cotton Seed Price ($/lb):</label>
@@ -83,16 +83,16 @@
             <br>
             <h3>Step 2. Enter estimates for total cotton lint production and cottonseed production.</h3>
             <label class="seedcottonlabel" for="lintprod">Upland Lint Production (million 480 lb bales):</label>
-            <input class="inputs" id="lintprod" type="text" value="14.401" onchange="seedCotton()">
+            <input class="inputs" id="lintprod" type="text" value="14.165" onchange="seedCotton()">
             <br>
             <br>
             <label class="seedcottonlabel" for="seedprod">Cottonseed Production (million tons):</label>
-            <input class="inputs" id="seedprod" type="text" value="4.587" onchange="seedCotton()">
+            <input class="inputs" id="seedprod" type="text" value="4.161" onchange="seedCotton()">
             <br>
             <br>
             <h3>Step 3. The MYA price for seed cotton is calculated by taking the total lint value plus the total cottonseed value and dividing by the total production of both in pounds.</h3>
             <label class="seedcottonlabel" for="seedcottonmya">Seed Cotton MYA Price:</label>
-            <output class="seedcottonlabel" id="seedcottonmya" type="text" onchange="seedCotton()">$0.3464</output>
+            <output class="seedcottonlabel" id="seedcottonmya" type="text" onchange="seedCotton()">$0.3625</output>
         </section>
             <br>
             <br>
