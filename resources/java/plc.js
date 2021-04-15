@@ -54,19 +54,19 @@ unitDeterminer = function() {
         price = '4.30';
         unitResult = 'bushels';
     } else if(crop === 'soybeans') {
-        price = '11.15';
+        price = '11.25';
         unitResult = 'bushels';
     } else if(crop === 'seedcotton') {
-        price = '0.3625';
+        price = '0.3454';
         unitResult = 'pounds';
     } else if(crop === 'longrice') {
-        price = '0.1240';
+        price = '0.1250';
         unitResult = 'pounds';
     } else if(crop === 'shortrice') {
-        price = '0.1280';
+        price = '0.1290';
         unitResult = 'pounds';
     } else if(crop === 'peanuts') {
-        price = '0.2150';
+        price = '0.2100';
         unitResult = 'pounds';
     } else if(crop === 'wheat') {
         price = '5.00';
