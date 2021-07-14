@@ -51,25 +51,25 @@ unitDeterminer = function() {
     let unitResult;
 
     if (crop === 'corn') {
-        price = '4.30';
+        price = '4.40';
         unitResult = 'bushels';
     } else if(crop === 'soybeans') {
-        price = '11.25';
+        price = '11.05';
         unitResult = 'bushels';
     } else if(crop === 'seedcotton') {
-        price = '0.3454';
+        price = '0.3376';
         unitResult = 'pounds';
     } else if(crop === 'longrice') {
         price = '0.1250';
         unitResult = 'pounds';
     } else if(crop === 'shortrice') {
-        price = '0.1290';
+        price = '0.1300';
         unitResult = 'pounds';
     } else if(crop === 'peanuts') {
         price = '0.2100';
         unitResult = 'pounds';
     } else if(crop === 'wheat') {
-        price = '5.00';
+        price = '5.05';
         unitResult = 'bushels';
     }
 
